@@ -1,0 +1,30 @@
+{
+  "101": [{
+    "id": 101,
+    "card_number": 1,
+    "card_location": "Start",
+    "name": "Test Card",
+    "image_front": "/bows_and_breakfast/1A-f.png",
+    "image_back": "/bows_and_breakfast/1A-b.png",
+    "sound": null,
+    "sound_repeat": false,
+    "draw_effect": null,
+    "text": [
+      {
+        "content": "",
+        "effect": null,
+        "content_color": "0x000000"
+      }
+    ],
+    "choice": [
+      {
+        "name": "",
+        "color": "",
+        "requirements": "",
+        "effect": "",
+        "goto_card": "101",
+        "pull_type": "ALL or Random?"
+      }
+    ]
+  }]
+}

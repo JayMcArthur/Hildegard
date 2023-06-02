@@ -1,0 +1,275 @@
+{
+  "1": [
+    {
+      "id": 1,
+      "card_number": 1,
+      "name": "For the Baroness",
+      "card_chapter": "chapter_1",
+      "card_location": "Start",
+      "image_front": "/chapter_1/card_1_f.png -- This can be auto gen",
+      "image_back": "/chapter_1/card_1_b.png",
+      "sound": null,
+      "sound_repeat": false,
+      "draw_effect": [],
+      "text": [
+        {
+          "content": "You wake to the promise of adventure!\nA small package has been dropped at your\ndoorstep. Your first delivery! It's a hastily\nwrapped box with instructions!",
+          "effect": [],
+          "content_color": "#000000",
+          "auto_continue": false
+        },
+        {
+          "content": "It's to be delivered in pristine condition to the\nBaroness of SeaCrest Cliffs",
+          "effect": [],
+          "content_color": "#000000",
+          "auto_continue": true
+        },
+        {
+          "content": "Gain 3 Gold & 2 Feats of Marksmanship.\nPull Cards 88, 89 & 90",
+          "effect": [["gain_gold", 3], ["gain_feat", 2], ["interrupt_pull_card", 88], ["interrupt_pull_card", 89], ["interrupt_pull_card", 90]],
+          "content_color": "#FF0000",
+          "auto_continue": true
+        }
+      ],
+      "choice": [
+        {
+          "name": "Mercantile",
+          "color": "#FF0000",
+          "requirements": [],
+          "effect": [],
+          "goto_card": "8",
+          "pull_type": "first"
+        },
+        {
+          "name": "Breakfast",
+          "color": "#FFFFFF",
+          "requirements": [],
+          "effect": [],
+          "goto_card": "2",
+          "pull_type": "first"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "card_number": 1,
+      "name": "Silver Cap",
+      "card_chapter": "chapter_1",
+      "card_location": "Start",
+      "sound": null,
+      "sound_repeat": false,
+      "draw_effect": [],
+      "text": [
+        {
+          "content": "Finally, you've found something. Nestled at the\nbase of a rotten tree trunk is a silver cap\nmushroom. You're no expert forager, but this\ncould be a good find. As you reach down to\nharvest the rare fungus, someone approaches.",
+          "effect": [],
+          "content_color": "#000000",
+          "auto_continue": false
+        },
+        {
+          "content": "\"Hildegard, thank goodness I found you!\nIt's your first assignment, a delivery to SeaCrest\nfor the Baroness!\" Oyvind, another member of\nthe Messengers' Guild, hands you the package.\n\"I had half a mind to take it myself. I wish I was\ngoing to SeaCrest.\" he whines.",
+          "effect": [],
+          "content_color": "#000000",
+          "auto_continue": true
+        },
+        {
+          "content": "Gain 3 Gold & 2 Feats of Marksmanship.\nPlace the Mushroom in your Inventory.\nPull Cards 88, 89 & 90",
+          "effect": [["gain_gold", 3], ["gain_feat", 2], ["gain_equip", "Silver Cap"], ["interrupt_pull_card", 88], ["interrupt_pull_card", 89], ["interrupt_pull_card", 90]],
+          "content_color": "#FF0000",
+          "auto_continue": true
+        }
+      ],
+      "choice": [
+        {
+          "name": "Mercantile",
+          "color": "#FF0000",
+          "requirements": [],
+          "effect": [],
+          "goto_card": "8",
+          "pull_type": "first"
+        },
+        {
+          "name": "Breakfast",
+          "color": "#FFFFFF",
+          "requirements": [],
+          "effect": [],
+          "goto_card": "2",
+          "pull_type": "first"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "card_number": 1,
+      "name": "A Midnight Morning",
+      "card_chapter": "chapter_1",
+      "card_location": "Start",
+      "sound": null,
+      "sound_repeat": false,
+      "draw_effect": [],
+      "text": [
+        {
+          "content": "You hold your breath and aim. You've\nnever seen a Midnight Squirrel, let alone right\nout your window! That pelt is worth a fortune",
+          "effect": [],
+          "content_color": "#000000",
+          "auto_continue": true
+        },
+        {
+          "content": "Pull card 85",
+          "effect": [["interrupt_pull_card", 85]],
+          "content_color": "#FF0000",
+          "auto_continue": false
+        },
+        {
+          "content": "\"Hildegard!\" Hallveig, your intrusive sister,\nbarges in and hands you a package. \"It's for the\nBaroness of SeaCrest Cliffs! Your first delivery!\nExciting Right?\"",
+          "effect": [],
+          "content_color": "#000000",
+          "auto_continue": false
+        },
+        {
+          "content": "\"Since the day's finally here, I thought you might\nwant this, our Aunt's compass. It could be useful\non the trail,\" she says",
+          "effect": [],
+          "content_color": "#000000",
+          "auto_continue": true
+        },
+        {
+          "content": "Gain 3 Gold & 2 Feats of Marksmanship.\nPlace the Compass in your Inventory.\nPull Cards 88, 89 & 90",
+          "effect": [["gain_gold", 3], ["gain_feat", 2], ["gain_equip", "Compass"], ["interrupt_pull_card", 88], ["interrupt_pull_card", 89], ["interrupt_pull_card", 90]],
+          "content_color": "#FF0000",
+          "auto_continue": true
+        }
+      ],
+      "choice": [
+        {
+          "name": "Mercantile",
+          "color": "#FF0000",
+          "requirements": [],
+          "effect": [],
+          "goto_card": "8",
+          "pull_type": "first"
+        },
+        {
+          "name": "Breakfast",
+          "color": "#FFFFFF",
+          "requirements": [],
+          "effect": [],
+          "goto_card": "2",
+          "pull_type": "first"
+        }
+      ]
+    }
+  ],
+  "2": [
+    {"id":  4}
+  ],
+  "8": [
+    {"id":  10}
+  ],
+  "85": [
+    {
+      "id":  92,
+      "card_number": 85,
+      "name": "Midnight Squirrel",
+      "card_chapter": "chapter_1",
+      "card_location": "Gray Oaks",
+      "sound": null,
+      "sound_repeat": false,
+      "draw_effect": [],
+      "text": [
+        {
+          "content": "It's a rare and beautiful creature. A tannery\nwill pay handsomely for that pelt!",
+          "effect": [],
+          "content_color": "#000000",
+          "auto_continue": true
+        },
+        {
+          "content": "If successful, place the Midnight Pelt in your\nInventory, otherwise discard it.",
+          "effect": [["interrupt_encounter", "Midnight Squirrel"]],
+          "content_color": "#FF0000",
+          "auto_continue": true
+        }
+      ],
+      "choice": []
+    }
+  ],
+  "88": [
+    {
+      "id":  95,
+      "card_number": 88,
+      "name": "Hildegard",
+      "card_chapter": "chapter_1",
+      "card_location": "Gray Oaks",
+      "sound": null,
+      "sound_repeat": false,
+      "draw_effect": [["enable_character"]],
+      "text": [],
+      "choice": []
+    }
+  ],
+  "89": [
+    {
+      "id":  96,
+      "card_number": 89,
+      "name": "Slingshot & Pebbles",
+      "card_chapter": "chapter_1",
+      "card_location": "Gray Oaks",
+      "sound": null,
+      "sound_repeat": false,
+      "draw_effect": [],
+      "text": [
+        {
+          "content": "This Slingshot is your most treasured\npossession, carved from the heart of a\nthousand-year-old-pine.",
+          "effect": [],
+          "content_color": "#000000",
+          "auto_continue": true
+        },
+        {
+          "content": "Place in your Inventory.",
+          "effect": [["gain_equip", "Slingshot"]],
+          "content_color": "#FF0000",
+          "auto_continue": false
+        },
+        {
+          "content": "With this Slingshot, you can roll the Black Wild\nShot Dice at the end of a Set",
+          "effect": [["gain_equip", "Black Wild Shot"]],
+          "content_color": "#000000",
+          "auto_continue": true
+        }
+      ],
+      "choice": []
+    }
+  ],
+  "90": [
+    {
+      "id":  97,
+      "card_number": 90,
+      "name": "Mysterious Package",
+      "card_chapter": "chapter_1",
+      "card_location": "Gray Oaks",
+      "sound": null,
+      "sound_repeat": false,
+      "draw_effect": [],
+      "text": [
+        {
+          "content": "You pick up the package and turn it over.\nIt's wrapped in paper with some light markings\nhere and there. You don't recognize them.\nAs much as you would like to give it a shake,\nyou don't. Well, not yet.",
+          "effect": [],
+          "content_color": "#000000",
+          "auto_continue": false
+        },
+        {
+          "content": "Wonder if you will ever know its contents?\nFor now, it will remain a mystery.",
+          "effect": [],
+          "content_color": "#000000",
+          "auto_continue": true
+        },
+        {
+          "content": "Place in your Inventory.",
+          "effect": [["gain_equip", "Mysterious Package"]],
+          "content_color": "#FF0000",
+          "auto_continue": true
+        }
+      ],
+      "choice": []
+    }
+  ]
+}
