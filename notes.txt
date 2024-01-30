@@ -1,0 +1,48 @@
+PyQt6 Tutorial
+1. https://zetcode.com/pyqt6/
+2. https://github.com/BenyaminZojaji/Python-Assignments
+3. https://www.pythonguis.com/tutorials/pyqt6-creating-your-first-window/
+
+How to turn to EXE for distribution
+- https://www.pythonguis.com/tutorials/packaging-pyqt6-applications-windows-pyinstaller/
+
+Using PyQtConfig for import and exporting Player
+- https://github.com/pythonguis/pyqtconfig
+- Alternative: https://stackoverflow.com/questions/21992849/binding-a-pyqt-pyside-widget-to-a-local-variable-in-python
+
+Themes
+- pyqtdarktheme > qdarktheme
+- https://github.com/UN-GCPDS/qt-material
+
+# https://www.spiresend.com/faq
+
+Done List
+# Create Save States example
+# Have Load and Save work
+
+TODO List
+
+Layout:
+
+Main Screen
+- Start
+- - remove button and show all other options
+- Select Save
+- - Start game, Hide Main, show Card Main
+- Delete Save
+- - Changes bottom buttons to delete
+- Settings
+- - Bring popup for settings
+
+Card Main Screen
+- Shows Current Card
+- Has buttons based on actions
+- - Some actions grayed out till side cards / options dealt with
+- Has Save / Back
+- Player and stats
+
+Battle Layout
+
+Fishing Layout
+
+Pull card layout
